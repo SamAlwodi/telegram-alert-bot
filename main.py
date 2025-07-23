@@ -4,7 +4,7 @@ from telegram import Bot
 app = FastAPI()
 
 BOT_TOKEN = "8079495838:AAGQxEX7soXiXo0SXcxTBdSH_Sx4D1kdcOw"
-CHAT_ID = "@AlwodiTradeBot"  # or use your numeric chat ID
+CHAT_ID = "@SammyBoyi"  # or use your numeric chat ID
 bot = Bot(token=BOT_TOKEN)
 
 @app.get("/")
